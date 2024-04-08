@@ -16,7 +16,7 @@ OR,XRP/EUR,buy,0.49,147,300
 """
 
 files_in_dir = os.listdir()
-trades_file = next((file for file in files_in_dir if file.startswith("traedes")), None)
+trades_file = next((file for file in files_in_dir if file.startswith("trades")), None)
 
 if trades_file:
     with open(trades_file, 'r') as file:
